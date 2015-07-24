@@ -8,18 +8,26 @@ Originally made in untiy 4.6
 <h1>How This Works</h1>
 The Audio for the game is handled with 2 sound sources and 4 Audio Classes
 
-1. SFX Master - https://github.com/DaniKog/Audio_Controller_Example/blob/master/Assets/Scripts/Audio/SFXMaster.cs
+<h3>1. SFX Master</h3>
+<br>
+https://github.com/DaniKog/Audio_Controller_Example/blob/master/Assets/Scripts/Audio/SFXMaster.cs
 <br>
 The SFX Master handles all the SFX in the game, it is a prefab that has one audio source and it assigns the right clip before playing it.
 
-2. UI_Audio - https://github.com/DaniKog/Audio_Controller_Example/blob/master/Assets/Scripts/Audio/UI_Audio.cs
+<h3>2. UI_Audio </h3>
+<br>
+https://github.com/DaniKog/Audio_Controller_Example/blob/master/Assets/Scripts/Audio/UI_Audio.cs
 <br>
 Ths class handles all the UI audio. This was a Untiy 4.6 apprach.
 
-3. Mixer - https://github.com/DaniKog/Audio_Controller_Example/blob/master/Assets/Scripts/Audio/Mixer.cs
+<h3>3. Mixer</h3>
+<br>
+https://github.com/DaniKog/Audio_Controller_Example/blob/master/Assets/Scripts/Audio/Mixer.cs
 <br>
 Mixer class is an improvised mixer,  a list of floats that save the volumes of each SFX and changes the voliune of the sound source before playing the sound.
 <br>
-<h3> 4. Audio Manager - https://github.com/DaniKog/Audio_Controller_Example/blob/master/Assets/Scripts/Audio/AudioManager.cs </h3>
+<h3> 4. Audio Manager  </h3>
+<br>
+https://github.com/DaniKog/Audio_Controller_Example/blob/master/Assets/Scripts/Audio/AudioManager.cs
 <br>
 The instance of this class only exists on the main menu. It checks if the other classes exist in the scnene and creates them from resources if they don't.
