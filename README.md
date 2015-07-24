@@ -17,12 +17,12 @@ The SFX Master handles all the SFX in the game, it is a prefab that has one audi
 <h3>2. UI_Audio </h3>
 https://github.com/DaniKog/Audio_Controller_Example/blob/master/Assets/Scripts/Audio/UI_Audio.cs
 <br>
-Ths class handles all the UI audio. This prefab has a sound source as well, it plays UI sounds when needed.
+This class handles all the UI audio. This prefab has a sound source as well, it plays UI sounds when needed.
 
 <h3>3. Mixer</h3>
 https://github.com/DaniKog/Audio_Controller_Example/blob/master/Assets/Scripts/Audio/Mixer.cs
 <br>
-Mixer class is an improvised mixer,  a list of floats that save the volumes of each SFX and changes the voliune of the sound source before playing the sound.
+Mixer class is an improvised mixer,  a list of floats that save the volumes of each SFX and changes the voliume of the sound source before playing the sound. It was done before Untiy 5 came out with it's own mixer.
 <br>
 <h3> 4. Audio Manager  </h3>
 https://github.com/DaniKog/Audio_Controller_Example/blob/master/Assets/Scripts/Audio/AudioManager.cs
