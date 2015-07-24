@@ -1,12 +1,12 @@
 # Audio_Controller_Example
 The Audio Management System from a small project I worked on.
 <br>
-ROTA by Erich Kohlweg.
+ROTA by Erich Kohlweg: http://gamejolt.com/games/rota/46815
 <br>
 Originally made in untiy 4.6
 <br>
 <h1>How This Works</h1>
-There are 3 audio classes.
+The Audio for the game is handled with 2 sound sources and 4 Audio Classes
 
 1. SFX Master - https://github.com/DaniKog/Audio_Controller_Example/blob/master/Assets/Scripts/Audio/SFXMaster.cs
 <br>
@@ -14,9 +14,12 @@ The SFX Master handles all the SFX in the game, it is a prefab that has one audi
 
 2. UI_Audio - https://github.com/DaniKog/Audio_Controller_Example/blob/master/Assets/Scripts/Audio/UI_Audio.cs
 <br>
-UI_Audio Handles all the UI audio. This was a Untiy 4.6 apprach.
+Ths class handles all the UI audio. This was a Untiy 4.6 apprach.
 
 3. Mixer - https://github.com/DaniKog/Audio_Controller_Example/blob/master/Assets/Scripts/Audio/Mixer.cs
 <br>
-Mixer class is an improvised mixer,  a list of floats that save the volumes of each SFX and changes the voliune of the sound source before playing the sound. Again
-Link to the Game: http://gamejolt.com/games/rota/46815
+Mixer class is an improvised mixer,  a list of floats that save the volumes of each SFX and changes the voliune of the sound source before playing the sound.
+<br>
+<h3> 4. Audio Manager - https://github.com/DaniKog/Audio_Controller_Example/blob/master/Assets/Scripts/Audio/AudioManager.cs </h3>
+<br>
+The instance of this class only exists on the main menu. It checks if the other classes exist in the scnene and creates them from resources if they don't.
