@@ -27,4 +27,4 @@ Mixer class is an improvised mixer,  a list of floats that save the volumes of e
 <h3> 4. Audio Manager  </h3>
 https://github.com/DaniKog/Audio_Controller_Example/blob/master/Assets/Scripts/Audio/AudioManager.cs
 <br>
-The instance of this class only exists on the main menu. It checks if the other classes exist in the scnene and creates them from resources if they don't.
+The instance of this class only exists on the main menu. It checks if the other classes exist in the scene and creates them from resources if they don't.
