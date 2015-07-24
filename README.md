@@ -1,5 +1,5 @@
 # Audio_Controller_Example
-The Audio Management System from a small project I worked on. Oginally made in untiy 4.6
+The Audio Management System from a small project I worked on. Originally made in untiy 4.6
 <br>
 ROTA by Erich Kohlweg.
 <br>
